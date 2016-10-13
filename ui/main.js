@@ -59,7 +59,7 @@ submit.onclick = function()
                    // span.innerHTML = counter.toString();
                    
                     var names=request.responseText;
-                    names = JSON.parse(name);
+                    names = JSON.parse(names);
                     var list = ' ';
                      for(var i=0;i<names.length;i++)
                      {
