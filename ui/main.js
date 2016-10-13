@@ -21,7 +21,7 @@ button.onclick = function()
             }
     };
     //Make the request
-    rquest.open('GET','http://gnanavalli.imad.hasura-app.io/counter',true);
+    request.open('GET','http://gnanavalli.imad.hasura-app.io/counter',true);
     request.send(null);
    
 }
