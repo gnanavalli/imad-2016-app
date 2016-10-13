@@ -19,7 +19,8 @@ button.onclick = function()
                    // var span = document.getElementById("count");
                    // span.innerHTML = counter.toString();
                    
-                   var names= ["name1","name2","name3","name4" ];
+                   var names=request.responseText;
+                   names = JSON.parse(name);
                     var list = ' ';
                      for(var i=0;i<names.length;i++)
                      {
@@ -57,7 +58,8 @@ submit.onclick = function()
                    // var span = document.getElementById("count");
                    // span.innerHTML = counter.toString();
                    
-                   var names= ["name1","name2","name3","name4" ];
+                    var names=request.responseText;
+                    names = JSON.parse(name);
                     var list = ' ';
                      for(var i=0;i<names.length;i++)
                      {
